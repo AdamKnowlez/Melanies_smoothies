@@ -6,7 +6,7 @@ cnx = st.connection("snowflake")
 session = cnx.session()
 
 # Write directly to the app
-st.title(":cup_with_straw: Customize Your Smoothie!:cup_with_straw: ")
+streamlit.title("My Parents New Healthy Diner")
 st.write(
   """Choose the fruits you want in your custom Smoothie!
   """
